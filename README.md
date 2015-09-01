@@ -1,2 +1,3 @@
-# nukanren
-An implementation of MicroKanren for .NET.
+# CSLogic
+
+A logic programming library (inspired by MicroKanren) for .NET.
