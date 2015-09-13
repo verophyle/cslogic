@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSLogic", "CSLogic\CSLogic.csproj", "{BDD34984-0EE2-4494-A54A-7C67DBB91B51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSLogic.Tests", "CSLogic.Tests\CSLogic.Tests.csproj", "{9339A09F-82D0-419F-BB42-6C4838F41BBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDD34984-0EE2-4494-A54A-7C67DBB91B51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDD34984-0EE2-4494-A54A-7C67DBB91B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDD34984-0EE2-4494-A54A-7C67DBB91B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDD34984-0EE2-4494-A54A-7C67DBB91B51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9339A09F-82D0-419F-BB42-6C4838F41BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9339A09F-82D0-419F-BB42-6C4838F41BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9339A09F-82D0-419F-BB42-6C4838F41BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9339A09F-82D0-419F-BB42-6C4838F41BBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
