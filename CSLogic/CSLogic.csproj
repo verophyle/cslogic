@@ -51,6 +51,7 @@
     <Compile Include="Var.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="CSLogic.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
