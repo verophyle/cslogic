@@ -68,6 +68,12 @@ namespace Verophyle.CSLogic
             return (state) => a.Unify(b, state);
         }
 
+        public static Goal<T> Fail<T>()
+            where T : IUnifiable<T>
+        {
+            return (state) => Enumerable.Empty<State<T>>();
+        }
+
         public static Goal<T> Pred<T>(Var v, Func<Var, bool> pred)
             where T : IUnifiable<T>
         {
